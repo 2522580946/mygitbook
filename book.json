@@ -13,12 +13,26 @@
 		}
     },
 	"plugins": [
-		"atoc"
+		"anchor-navigation-ex","tbfed-pagefooter","image-captions","donate"
 	],
 	"pluginsConfig": {
-		"atoc": {
-			"addClass": true,
-			"className": "atoc"
+		"theme-default": {
+			"showLevl": true
+		},
+		"tbfed-pagefooter": {
+			"copyright": "Copyright @zofer.hong 2023",
+			"modify_lable": "该文件修订于:",
+			"modify_format": "2023-05-07"
+		},
+		"image-captions": {
+			"captions": "图_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_-_CAPTION_",
+			"align": "left"
+		},
+		"donate": {
+			"wechat": "./docs/img/wcpay.png",
+			"title": "",
+			"button": "赏",
+			"wechatText": "微信打赏"
 		}
 	}
 	
