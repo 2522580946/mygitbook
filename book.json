@@ -1,0 +1,25 @@
+{
+    "title": "支付项目",
+    "description": "支付项目描述",
+    "language": "zh-hans",
+    "author": "zofer.hong",
+    "links": {
+        "sidebar": {
+            "回到主页": "https://www.baidu.com/"
+        },
+		"sharing":{
+				"twitter":false,
+				"all":false
+		}
+    },
+	"plugins": [
+		"atoc"
+	],
+	"pluginsConfig": {
+		"atoc": {
+			"addClass": true,
+			"className": "atoc"
+		}
+	}
+	
+}
