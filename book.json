@@ -3,6 +3,7 @@
     "description": "支付项目描述",
     "language": "zh-hans",
     "author": "zofer.hong",
+    "root": ".",
     "links": {
         "sidebar": {
             "回到主页": "https://www.baidu.com/"
@@ -12,28 +13,16 @@
 				"all":false
 		}
     },
-	"plugins": [
-		"anchor-navigation-ex","tbfed-pagefooter","image-captions","donate"
+    "plugins": [
+	                    "anchor-navigation-ex",
+			    "donate"
 	],
-	"pluginsConfig": {
-		"theme-default": {
-			"showLevl": true
-		},
-		"tbfed-pagefooter": {
-			"copyright": "Copyright @zofer.hong 2023",
-			"modify_lable": "该文件修订于:",
-			"modify_format": "2023-05-07"
-		},
-		"image-captions": {
-			"captions": "图_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_-_CAPTION_",
-			"align": "left"
-		},
-		"donate": {
-			"wechat": "docs\img\wcpay.png",
+    "pluginsConfig": {
+	"donate": {
+			"wechat": "docs/img/wcpay.png",                        
 			"title": "",
-			"button": "赏",
-			"wechatText": "微信打赏"
-		}
-	}
-	
+                        "button": "赏",
+                        "wechatText": "微信打赏"
+                }
+    }
 }
