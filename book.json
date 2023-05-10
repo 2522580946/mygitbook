@@ -3,7 +3,7 @@
     "description":"支付项目描述",
     "language":"zh-hans",
     "author":"zofer.hong",
-    "root":"./docs",
+    "root":".",
     "links":{
         "sidebar":{
             "百度":"https://www.baidu.com/"
@@ -15,35 +15,15 @@
     },
     "plugins":[
         "anchor-navigation-ex",
-        "donate",
-        "autocover"
+        "donate"
     ],
     "pluginsConfig":{
         "donate":{
-            "wechat":"docs/img/wcpay.png",
+            "wechat":"../img/wcpay.png",
+            "alipay": "../img/zfpay.png",
             "title":"",
             "button":"赏",
             "wechatText":"微信打赏"
-        },
-        "autocover":{
-            "title":"Java 合集",
-            "author":"zofer.hong",
-            "pluginsConfig":{
-                "autocover":{
-                    "font":{
-                        "size":null,
-                        "family":"Impact",
-                        "color":"#FFF"
-                    },
-                    "size":{
-                        "w":1800,
-                        "h":2360
-                    },
-                    "background":{
-                        "color":"#09F"
-                    }
-                }
-            }
         }
     }
 }
