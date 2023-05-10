@@ -1,28 +1,49 @@
 {
-    "title": "支付项目",
-    "description": "支付项目描述",
-    "language": "zh-hans",
-    "author": "zofer.hong",
-    "root": ".",
-    "links": {
-        "sidebar": {
-            "回到主页": "https://www.baidu.com/"
+    "title":"支付项目",
+    "description":"支付项目描述",
+    "language":"zh-hans",
+    "author":"zofer.hong",
+    "root":"./docs",
+    "links":{
+        "sidebar":{
+            "百度":"https://www.baidu.com/"
         },
-		"sharing":{
-				"twitter":false,
-				"all":false
-		}
+        "sharing":{
+            "twitter":false,
+            "all":false
+        }
     },
-    "plugins": [
-	                    "anchor-navigation-ex",
-			    "donate"
-	],
-    "pluginsConfig": {
-	"donate": {
-			"wechat": "docs/img/wcpay.png",                        
-			"title": "",
-                        "button": "赏",
-                        "wechatText": "微信打赏"
+    "plugins":[
+        "anchor-navigation-ex",
+        "donate",
+        "autocover"
+    ],
+    "pluginsConfig":{
+        "donate":{
+            "wechat":"docs/img/wcpay.png",
+            "title":"",
+            "button":"赏",
+            "wechatText":"微信打赏"
+        },
+        "autocover":{
+            "title":"Java 合集",
+            "author":"zofer.hong",
+            "pluginsConfig":{
+                "autocover":{
+                    "font":{
+                        "size":null,
+                        "family":"Impact",
+                        "color":"#FFF"
+                    },
+                    "size":{
+                        "w":1800,
+                        "h":2360
+                    },
+                    "background":{
+                        "color":"#09F"
+                    }
                 }
+            }
+        }
     }
 }
